@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: simple-nginx-config
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+      <body>
+        <h1>Ini tampilan dari NGINX dan nama saya Three Ramdhani</h1>
+      </body>
+    </html>
